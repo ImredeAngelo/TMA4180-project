@@ -1,1 +1,2 @@
-# TMA4180-project
+# Project in TMA4180 Optimization I
+
