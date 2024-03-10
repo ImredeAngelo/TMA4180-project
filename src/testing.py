@@ -35,8 +35,9 @@ class TestCase():
             result = self.run(self.test_cases[i])
             print(f"Test #{i + 1}:", end=" ")
             
+            # TODO:
             if np.linalg.norm(result - self.solution) > error:
-                print(f"FAILED - Returned {result} but was {self.solution} - Error was {np.linalg.norm(result - self.solution)} > {error}")
+                print(f"FAILED - Returned {result} but solution was {self.solution}")
                 continue
 
             print("success")
